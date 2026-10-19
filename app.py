@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel,Field
 app=FastAPI(title="Voice AI Customer Support Agent",version="0.1.0")
 FAQ=[{"question":"How do I reset my password?","answer":"Use the password reset link on the sign-in page."},{"question":"How do I request a refund?","answer":"Share your order ID with support so the refund can be reviewed."},{"question":"How can I contact support?","answer":"Open a support ticket with your account email and a short description."}]
-RISK={"fraud","charged twice","security breach","account hacked","emergency"}
+RISK={"fraud","charged twice","security breach","account hacked","hacked","emergency"}
 class Turn(BaseModel):
  transcript:str=Field(min_length=1,max_length=5000)
  conversation_id:str="demo"
