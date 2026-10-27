@@ -21,3 +21,10 @@ This version does not capture audio, perform speech-to-text, or synthesize speec
 
 ## Stack
 Python, FastAPI, Pydantic, pytest. Core demo requires no paid API.
+
+## Explore more
+
+- [AI Customer Support Assistant](https://github.com/HardikPaghdar/ai-customer-support-assistant) — FAQ-based message triage.
+- [RAG Knowledge Base Assistant](https://github.com/HardikPaghdar/rag-knowledge-base-assistant) — document Q&A with references.
+- [AI Agent Workflow Automation](https://github.com/HardikPaghdar/ai-agent-workflow-automation) — approved tool-call workflows.
+- [More projects on my portfolio](https://hardikpaghdar.netlify.app/).
